@@ -1,5 +1,7 @@
 // N-Queen I / Hard 
 // link: https://leetcode.com/problems/n-queens/submissions/
+// 慣性式思考 , 落子一次 , 想記住全部棋盤結果     --> 不佳
+// 應拆成 一個 row 一個 row , 每次一條去搜尋比較 --> 好！
 /**
  * @param {number} n
  * @return {string[][]}
